@@ -22,8 +22,8 @@ public class Sch_catActivity extends AppCompatActivity {
         imageclose = findViewById(R.id.image_close);
         imageopen = findViewById(R.id.image_open);
         click = findViewById(R.id.click);
-        closeSound = MediaPlayer.create(this, R.raw.bop);
-        openSound = MediaPlayer.create(this, R.raw.bop);
+        closeSound = MediaPlayer.create(this, R.raw.pop_cat);
+        openSound = MediaPlayer.create(this, R.raw.pop_cat);
         imageclose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
